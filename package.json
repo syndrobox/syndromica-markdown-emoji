@@ -1,5 +1,5 @@
 {
-  "name": "syndromica-markdown-emoji",
+  "name": "@syndrobox/syndromica-markdown-emoji",
   "version": "1.2.4",
   "description": "Emoji set for Syndromica.",
   "main": "index.js",
