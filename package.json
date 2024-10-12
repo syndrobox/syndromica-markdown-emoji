@@ -1,0 +1,36 @@
+{
+  "name": "syndromica-markdown-emoji",
+  "version": "1.2.4",
+  "description": "Emoji set for Syndromica.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/syndrobox/syndromica-markdown-emoji.git"
+  },
+  "keywords": [
+    "syndromica",
+    "emoji",
+    "markdown"
+  ],
+  "author": "Syndrobox (https://github.com/syndrobox)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/syndrobox/syndromica-markdown-emoji/issues"
+  },
+  "homepage": "https://github.com/syndrobox/syndromica-markdown-emoji#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.0.0",
+    "@syndrobox/eslint-config-syndrobox": "^2.0.2", 
+    "eslint-plugin-mocha": "^4.7.0",
+    "markdown-it": "^8.0.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "markdown-it-emoji": "^1.1.1"
+  }
+}
